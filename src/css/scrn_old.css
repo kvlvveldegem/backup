@@ -1,0 +1,249 @@
+* {
+	padding:0;
+	margin:0;
+}
+/*----- BODY -----*/
+body {
+	color:#425e02;
+	font-size:12px;
+	font-family:Tahoma, Geneva, sans-serif;
+	background-image:url(../images/bg.gif);
+	background-repeat:repeat;
+}
+a {
+	color:#3d5602;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+ol:li {
+ list-style-type:square;
+}
+h1 {
+	font-size:1.8em;
+	margin-bottom:0.7em;
+}
+h2 {
+	font-size:1.5em;
+	margin-top:1.2em;
+	margin-bottom:0.4em;
+}
+h3 {
+	font-size:1.2em;
+	margin-bottom:5px;
+	margin-top:20px;
+}
+img {
+	border-style:none;
+}
+#container {
+	position:relative;
+	width:700px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:180px;
+	line-height:1.4em;
+	background-color:#FFFFFF;
+	/* Borders */
+	border-left-color:#425e02;
+	border-right-color:#425e02;
+	border-top-color:#425e02;
+	border-left-width:1px;
+	border-right-width:1px;
+	border-top-width:1px;
+	border-left-style:solid;
+	border-right-style:solid;
+	border-top-style:solid;
+}
+#printPic {
+	display:none;
+}
+/*----- HEADER -----*/
+#header {
+	position:absolute;
+	top:-156px;
+}
+/*----- NAVIGATIE -----*/
+
+#nav {
+	float:left;
+	width:175px;
+	font-size:1.1em;
+}
+#nav ul li {
+	padding-left:15px;
+	margin-left:0px;
+	padding-top:2px;
+	padding-bottom:2px;
+	list-style-type:none;
+}
+#nav li a {
+	display:block;
+}
+#nav li:hover {
+	border-right-color:#425e02;
+	border-right-style:solid;
+	border-right-width:5px;
+}
+#nav #navFoto h2 {
+	margin-left:15px;
+	margin-top:30px;
+}
+#nav #navFoto li {
+	list-style-type:square;
+	font-size:0.9em;
+	padding-left:0px;
+}
+#nav #navFoto ul {
+	margin-left:40px;
+}
+.selected {
+	color:#FFF;
+	background-color:#425e02;
+}
+/*----- CONTENT -----*/
+
+#content {
+	padding-left:190px;
+	padding-right:15px;
+}
+#content ul {
+	margin-left:15px;
+}
+#content ol {
+	margin-left:30px;
+}
+/*----- FOOTER -----*/
+
+#footer {
+	clear:both;
+	font-size:0.8em;
+	font-weight:bold;
+	text-align:center;
+	margin-top:20px;
+	margin-bottom:30px;
+	padding-top:5px;
+	padding-bottom:5px;
+	background-color:#a4bd0a;
+	/* Borders */
+	border-bottom-color:#425e02;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-top-color:#425e02;
+	border-top-style:solid;
+	border-top-width:1px;
+}
+/*----- AGENDA -----*/
+#agenda span {
+	font-style:italic;
+}
+#agenda ul li {
+	list-style-type:square;
+	margin-left:22px;
+	margin-bottom:0.3em;
+}
+#agenda .show {
+	padding-right:5px;
+}
+/*----- BESTUUR -----*/
+#tblBestuur {
+	margin-top:15px;
+}
+#tblBestuur .naam {
+	width:150px;
+	font-weight:bolder;
+}
+#tblBestuur .tel {
+	width:100px;
+}
+#tblBestuur .functie {
+	width:100px;
+}
+#overzicht {
+	margin-top:15px;
+}
+/*----- WAT IS KVLV? -----*/
+#inleiding span {
+	font-style:italic;
+}
+#samenvatting {
+	margin-top:20px;
+	margin-bottom:20px;
+}
+#samenvatting ul li {
+	font-weight:bold;
+	list-style-type:square;
+	margin-left:20px;
+}
+#slot span {
+	font-weight:bold;
+}
+/*----- Lid worden -----*/
+#intro ul li {
+	margin-left:25px;
+}
+#hoe p {
+	margin-bottom:0.8em;
+}
+/*----- Galerij -----*/
+.img_flat {
+	padding-right:15px;
+	padding-bottom:15px;
+}
+.img_tall {
+	padding-left:15px;
+	padding-right:15px;
+	padding-bottom:5px;
+}
+.top {
+	margin-left:25px;
+	font-size:0.6em;
+}
+#picOntbijtroute {
+	padding-bottom:15px;
+}
+#picOntbijtroute table {
+	padding-top:5px;
+	text-align:center;
+}
+/*----- RECEPTEN -----*/
+#recept h2 {
+	margin-bottom:-5px;
+}
+#dessert .print {
+	margin-bottom:0px;
+}
+.ingredienten li {
+	margin-left:20px;
+	text-transform:capitalize;
+}
+.trigger{
+	display:block;
+}
+.print {
+	margin-top:10px;
+	margin-bottom:30px;
+}
+/*----- CONTACT -----*/
+#contact li {
+	margin-left:10px;
+}
+/*----- LINKS -----*/
+#links ul {
+	margin-top:0.7em;
+}
+#links ul li {
+	list-style-type:square;
+	margin-left:25px;
+	margin-bottom:0.2em;
+}
+#links ul li span {
+	font-style:italic;
+}
+/*----- Other -----*/
+#nav, #content {
+	padding-top:35px;
+	margin-right:15px;
+	min-height:250px;
+}
